@@ -1,0 +1,60 @@
+
+.video-name:hover,
+.video-name2:hover,
+.video-name3:hover,
+.video-name4:hover,
+.video-name5:hover,
+.video-name6:hover, 
+.player-name:hover,
+.player-name1:hover,
+.player-name2:hover{
+  cursor:pointer;
+}
+.video-image{
+  width:100%;
+  border-radius: 4px;
+
+}
+.fam-info{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.video-title{
+  width:300px;
+  font-size:15px;
+  font-weight:500;
+  margin-top:5px;
+  margin-bottom:10px;
+  transition: box-shadow 0.15s;
+}
+
+.video-title:hover{
+  font-weight:bold;
+  opacity:1;
+}
+
+.video-job, .video-net{
+  font-size:14px;
+  color:rgb(96, 96, 96);
+  margin-bottom:4px;
+  line-height:10px;
+}
+
+.kevin{
+  display: inline-block;
+  width:50px;
+}
+.noli{
+  display: inline-block;
+  width:50px;
+}
+.video-row{
+  margin-bottom:10px;
+}
+
+.video-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 40px;
+}
